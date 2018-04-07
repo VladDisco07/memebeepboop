@@ -48,16 +48,18 @@ bot.on("message", function(message) {
 			   .addField("READ ME", "Visit this nice and cool server here: https://discord.gg/pqtyJ4U")
 			   .setThumbnail("http://i0.kym-cdn.com/entries/icons/original/000/025/054/SOMEBODY_TOUCHA_MY_SPAGHET.PNG")
 			   .setColor(0xe91e63)
-			   .setFooter("The last update: MemeBot is now here!")
+			   .setFooter("Created by: vlad, sunt hype saracilor#0001")
 		   message.author.sendEmbed(embed);
 		   break;
-		case "massdm":
+		case "partners":
 		   var embed = new Discord.RichEmbed()
-			   .setDescription("Missing Args :x:")
-			   .setColor(0xe74c3c)
-			   message.channel.sendEmbed(embed);
+			   .setTitle("Don't forgot to join here today! :)")
+		           .addField("HL||HackerLand", "https://discord.gg/pqtyJ4U")
+		           .addField("soniceldropkeys", "https://discord.gg/X8C8M3F")
+		           .addField("qAlts", "https://discord.gg/QzQNE63")
+			   message.author.sendEmbed(embed);
 		   break;
-        default:
+                default:
 		    message.channel.sendMessage("Invalid command");
 	}
 });
