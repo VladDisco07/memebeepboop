@@ -1,6 +1,8 @@
+//outdated (editing this in 2021)
+
 const Discord = require ("discord.js");
 
-const token = "NDMxOTAwODk3ODIwNDA5ODY2.DalekQ.h4_88jjTQNZfzhAr9YBE7ETH1iI";
+const token = "no";
 const prefix = "))";
 
 var fortunes = [
